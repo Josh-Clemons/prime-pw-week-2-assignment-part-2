@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a string variable called name and set it to "Dane"
+// Then check if the name is an exact match to "Mary"
+// If true, log "Hi, Mary!"
+// In all other cases log "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Creates two variables, secret and code, sets code value to 123
+// If the code is an exact match to 123, set secret variable to 'super' and multiplies it's value by 2
+// Then, if code is greater than 250, sets secret variable to 'duper'
+// Lastly, console log the the phrase assigned to the variable secret
 
 //CODE
 /*
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Creates three variables and assigns a value to each
+// Checks if isStudent is true and the zip code is greater than 8000. 
+// If statement is true, then outputs "You're a student on the west coase"
+// Next checks if isStudent is false or age is under 30. If statement evaluates as true,
+// console logs "What are your hobbies?"
+// Next the code evaluates if isStudent is true, if yes console logs "Welcome to Prime!"
+// If no statements have been tested as true, console log "How about the weather?"
 
 //CODE
 /*
@@ -136,6 +139,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX - missing statement "colorTwo = 'purple'"
+
 }
 */
 
@@ -146,6 +151,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+//FIX - statement evaluates true if either condition is met due to OR operator
+//Statement should read 'if (temp > 39 && time >= 4) {'
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +167,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - statement is asking if age is less than or equal to minAge, should just be less than
+//Statement should read 'if(minAge < age) {'
 
 if(minAge <= age) {
   console.log('no entry');
